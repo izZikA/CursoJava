@@ -16,4 +16,16 @@ public class Alumno extends Persona{
         System.out.println("El alumno no esta excento pues su promedio es menor a 8");
         return false;
     }
+    @Override
+    public void Clase(){
+        System.out.println("El Alumno va a tomar clase");
+    }
+    @Override
+    public void irEscuela(){
+        System.out.println("El Alumno va  ala escuela a estudiar");
+    }
+    @Override
+    public void Tarea(){
+        System.out.println("El Alumno tiene que hacer su tarea");
+    }
 }

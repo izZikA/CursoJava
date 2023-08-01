@@ -16,6 +16,18 @@ public class Profesor extends Docentes{
         promedioGrupal = promedioAlu1 + promedioAlu2 + promedioAlu3;
         return promedioGrupal;
     }
+    @Override
+    public void Clase(){
+        System.out.println("El profesor va a dar la clase");
+    }
+    @Override
+    public void irEscuela(){
+        System.out.println("El profesor va a la Escuela a dar la clase");
+    }
+    @Override
+    public void Tarea(){
+        System.out.println("El profesor deja la tarea para sus alumnos");
+    }
 
 }
 
