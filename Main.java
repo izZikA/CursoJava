@@ -33,7 +33,7 @@ public class Main {
         d.Clase();
         d.Tarea();
         d.promedioGrupal("Martin", "Jose", "Maria", 8.5, 7.5, 9.2);
-        d.Evaluar(8.5, 7.5 , 9.2);
+        System.out.println(d.Evaluar(8.5, 7.5 , 9.2));
         System.out.println();
         //Se crea un objeto de la clase secretaria ademas de mandar a llamar sus metodos para las pruebas
         Secretaria e = new Secretaria("Vety", "Femenino", 35, 1500);
@@ -50,10 +50,11 @@ public class Main {
         f.Clase();
         f.Tarea();
         f.Turno();
+        System.out.println();
         //Se crea un objeto de la clase Directoe y se prueban sus metodos 
         Director g = new Director("Roberto", "Hombre", 42, 3000);
         g.Info();
-        g.irEscuela();;
+        g.irEscuela();
         g.Clase();
         g.Tarea();
         g.Correr(f);
