@@ -7,7 +7,7 @@ public class Alumno extends Persona{
     public void Promedio(){
         System.out.println("El promedio del alumno es:" + promedio);
     }
-    public boolean Excento(double promedio){
+    public boolean Excento(){
         if (promedio>=8.0){
             System.out.println("El alumno esta excento pues su promedio es mayor o igual a 8:");
             return true;

@@ -17,5 +17,12 @@ public class Persona {
     public void Tarea(){
         System.out.println("La persona hace tarea");
     }
+    public void Info(){
+        System.out.println("Su nombre es: " + nombre);
+        System.out.println("Su genero es: " + genero);
+        System.out.println("Su edad es: " + edad);
+    }
+
+
 }
 
