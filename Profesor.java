@@ -13,7 +13,7 @@ public class Profesor extends Docentes{
     }
     public double Evaluar(double promedioAlu1,double promedioAlu2, double promedioAlu3){
         System.out.println("El promedio de su grupo es :");
-        promedioGrupal = promedioAlu1 + promedioAlu2 + promedioAlu3;
+        promedioGrupal = (promedioAlu1 + promedioAlu2 + promedioAlu3)/3;
         return promedioGrupal;
     }
     @Override
